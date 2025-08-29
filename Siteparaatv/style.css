@@ -1,0 +1,291 @@
+p{
+    color: #fff;
+    margin: 0;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 13px;
+    flex-direction: row;
+}   
+
+ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    width: 1030px;
+}
+
+li{
+    padding: 0;
+    transition: all 0.5s;
+    background-color: #00193B;
+    margin: 0;
+    list-style: none;
+    padding: 0px;
+}
+
+.uemano{
+    position: absolute;
+    display: flex;
+    background-color: #cccccc;
+    height: 55px;
+    width: 86px;
+    margin-left: 964px;
+    margin-top: -55px;
+    background-color: #00193B;
+}
+
+.threebarras{
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    height: 20px;
+    top: 17px;
+    left: 20px;
+    align-items: end;
+    cursor: pointer;
+}
+#treebarras:checked + .threebarras .linha:nth-child(1){
+    transform: rotate(45deg);
+    top: 10px;
+    position: absolute;
+}
+#treebarras:checked + .threebarras .linha:nth-child(3){
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 10px;
+}
+#treebarras:checked + .threebarras .linhaa{
+    opacity: 0;
+}
+
+.pesquisa{
+    top: 30px;
+    left: 500px;
+    position: absolute;
+    width: 250px;
+    height: 40px;
+}
+
+.linhaentre{
+    width: 1050px;
+    height: 2px;
+    background-color: #1c3254;
+}
+
+.login-area{
+    background-color: #00193B;
+    width: 1050px;
+    height: 445px;
+}
+
+.create-acc{
+}
+h3{
+    margin: 0;
+    color: #FFF;
+    font-size: 15px;
+}
+.crrate{
+    left: 325px;
+    top: 220px;
+    position: absolute;
+}
+.log{
+    left: 850px;
+    top: 220px;
+    position: absolute;
+}
+
+.user{
+    left: 750px;
+    top: 260px;
+    position: absolute;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+.senha{
+    left: 750px;
+    top: 320px;
+    position: absolute;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+.remember{
+    left: 860px;
+    top: 390px;
+    position: absolute;
+}
+h5{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2px;
+    left: 25px;
+    color: #FFF;
+    width: 90px;
+}
+.logi{
+    position: absolute;
+    left: 750px;
+    top: 430px;
+    padding-left: 90px;
+    padding-bottom: 10px;
+    padding-right: 90px;
+    padding-top: 10px;
+}
+
+
+.inscreva{
+    position: absolute;
+    left: 250px;
+    top: 260px;
+    padding: 10px;
+}
+h4{
+    color: #FFF;
+    font-weight: lighter;
+    font-size: small;
+}
+.bagulin{
+    position: absolute;
+    left: 275px;
+    top: 290px;
+}
+.bagulinu{
+    position: absolute;
+    left: 750px;
+    top: 470px;
+}
+.bagulins{
+    position: absolute;
+    left: 750px;
+    top: 500px;
+}
+.linhaentres{
+    width: 1px;
+    height: 380px;
+    background-color: #1c3254;
+    position: absolute;
+    left: 630px;
+    top: 200px;
+}
+
+.linha{
+    width: 20px;
+    height: 2px;
+    background-color: #cccccc;
+    transition: color 0.3s ease;
+}
+.linhaa{
+    width: 15px;
+    height: 2px;
+    background-color: #cccccc;
+    transition: color 0.3s ease;
+}
+.treebarras{
+    opacity: 0;
+}
+
+li:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #00193B;
+}
+.logo{
+    width: 170px;
+    height: 85px;
+    left: 0;
+}
+.logopo{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.bordaL{
+    position: absolute;
+    display: flex;
+    background-color: #cccccc;
+    height: 134vh;
+    width: 115px;
+    margin-left: -115px;
+}
+.bordaR{
+    background-color: #cccccc;
+    height: 134vh;
+    width: 115px;
+    display: flex;
+    position: absolute;
+    margin-left: 1050px;
+}
+
+
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 900px;
+    margin-left: 115px;
+    margin-right: 115px;
+    background-color: #e9e9e9;
+}
+
+.geladoazul{
+    width: 500px;
+    height: 900px;
+    background-color: #00193B;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #222;
+    color: white;
+    padding: 30px 20px;
+    width: 1050px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 900px;
+    margin: auto;
+}
+.footer-logo h2{
+    margin: 0;
+    color: #00bcd4;
+}
+.footer-contact h3, .footer-social h3{
+    margin-bottom: 10px;
+    color: #00bcd4;
+}
+
+.social-icons a{
+    color: #fff;
+    margin-right: 15px; 
+    font-size: 20px; 
+    transition: 0.7s;
+}
+
+.social-icons a:hover{
+    color: #00bcd4;
+}
